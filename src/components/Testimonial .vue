@@ -3,12 +3,12 @@
         <div class="text-h2 my-7" style="font-family: 'Edu TAS Beginner', cursive !important;">Testimonial</div>
         <v-row class="justify-center">
             <v-col md="3" v-for="post in posts">
-                <v-card class="mx-2 glass-bg text-left pa-2" theme="dark">
+                <v-card class="rounded-lg mx-2 glass-bg text-left pa-2" theme="dark">
                     <template v-slot:prepend>
                         <img src="../assets/icons8-comma-100.png" width="30" alt="">
                         <img src="../assets/icons8-comma-100.png" width="30" alt="">
                     </template>
-                    <v-card-text class="text-h5 font-weight-light py-2" style="line-height: 1.1em;">
+                    <v-card-text class="text-h5 py-2" style="line-height: 1.1em;">
                         {{ post.post }}
                     </v-card-text>
                     <v-card-actions>
