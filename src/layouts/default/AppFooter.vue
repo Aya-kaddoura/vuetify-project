@@ -1,5 +1,5 @@
 <template>
-  <v-footer style="background-color: #7F7C82;">
+  <v-footer style="background-color: #d16b3cd5;">
     <v-row justify="center" no-gutters>
       <v-btn
         v-for="link in links"
@@ -12,7 +12,7 @@
         {{ link }}
       </v-btn>
       <v-col class="text-center mt-4" cols="12" style="color: #F3F1F5;">
-        {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+        {{ new Date().getFullYear() }} — <strong>Rose</strong>
       </v-col>
     </v-row>
   </v-footer>

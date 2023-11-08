@@ -1,5 +1,5 @@
 <template>
-    <v-container class="gr-bg text-center text-white pb-12" fluid>
+    <v-container class="bp-bg text-center text-white pb-12" fluid>
         <div class="text-h2 my-7" style="font-family: 'Edu TAS Beginner', cursive !important;">Testimonial</div>
         <v-row class="justify-center">
             <v-col md="3" v-for="post in posts">
@@ -17,8 +17,8 @@
                                 <v-avatar color="grey-darken-3"
                                     image="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortCurly&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=White&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"></v-avatar>
                             </template>
-                            <v-list-item-title class="text-deep-purple-lighten-1 font-weight-bold">{{ post.user }}</v-list-item-title>
-                            <v-list-item-subtitle class="text-deep-purple-lighten-1">Vue Creator</v-list-item-subtitle>
+                            <v-list-item-title class="font-weight-bold">{{ post.user }}</v-list-item-title>
+                            <v-list-item-subtitle>Vue Creator</v-list-item-subtitle>
                         </v-list-item>
                     </v-card-actions>
                 </v-card>
@@ -34,13 +34,6 @@ const posts = [{user : 'Aya kd' ,post : 'Lorem ipsum dolor sit amet consectetur,
     {user : 'Kalel KK' ,post : 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi illo provident quo in odio corporis exercitationem voluptate minus vero nisi!'},]
 
 
-    // import { ref } from "vue";
-// const posts = ref([]);
-// fetch('https://dummyjson.com/posts')
-//     .then(res => res.json())
-//     .then(items => {
-//         posts.value = items
-//     })
 
 
 </script>
@@ -49,10 +42,9 @@ const posts = [{user : 'Aya kd' ,post : 'Lorem ipsum dolor sit amet consectetur,
 
 
 <style>
-.gr-bg {
-    background: rgb(185, 185, 186);
-    background: linear-gradient(151deg, rgba(185, 185, 186, 1) 19%, rgba(150, 87, 169, 1) 100%);
-}
+.bp-bg {
+    background: rgb(118,56,28);
+background: linear-gradient(130deg, rgb(207, 101, 52) 19%, rgb(243, 114, 127) 86%);}
 
 .glass-bg {
     background: rgb(255,255,255,.3) !important;
@@ -63,91 +55,3 @@ const posts = [{user : 'Aya kd' ,post : 'Lorem ipsum dolor sit amet consectetur,
 
 
 
-
-
-
-
-
-
-
-
-
-
-<!-- <template>
-    <v-carousel height="400" hide-delimiter-background show-arrows="hover" class="bg-red">
-        <v-carousel-item>
-            <v-sheet height="70%" border="lg opacity-12" class="text-body-2 mx-auto" max-width="550">
-                <v-container fluid>
-                    <v-row>
-                        <v-col cols="12" md="3">
-                            <v-img src="../assets/testimonial 1.jpg" height="88" cover></v-img>
-                        </v-col>
-
-                        <v-col cols="12" md="9">
-                            <p class="mb-4">
-                                section. You may enjoy other related articles:
-                            </p>
-
-
-                        </v-col>
-                    </v-row>
-                </v-container>
-            </v-sheet>
-        </v-carousel-item>
-
-
-        <v-carousel-item>
-            <v-sheet height="70%" border="lg opacity-12" class="text-body-2 mx-auto" max-width="550">
-                <v-container fluid>
-                    <v-row>
-                        <v-col cols="12" md="3">
-                            <v-img src="../assets/testimonial 1.jpg" height="88" cover></v-img>
-                        </v-col>
-
-                        <v-col cols="12" md="9">
-                            <p class="mb-4">
-                                section. You may enjoy other related articles:
-                            </p>
-
-
-                        </v-col>
-                    </v-row>
-                </v-container>
-            </v-sheet>
-        </v-carousel-item>
-
-
-        <v-carousel-item>
-            <v-sheet height="70%" border="lg opacity-12" class="text-body-2 mx-auto" max-width="550">
-                <v-container fluid>
-                    <v-row>
-                        <v-col cols="12" md="3">
-                            <v-img src="../assets/testimonial 1.jpg" height="88" cover></v-img>
-                        </v-col>
-
-                        <v-col cols="12" md="9">
-                            <p class="mb-4">
-                                section. You may enjoy other related articles:
-                            </p>
-
-
-                        </v-col>
-                    </v-row>
-                </v-container>
-            </v-sheet>
-        </v-carousel-item>
-
-        
-    </v-carousel>
-</template>
-
-  
-<script>
-
-</script>
-
-<style>
-.v-responsive {
-    align-items: center;
-}
-</style> -->

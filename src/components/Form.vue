@@ -6,7 +6,7 @@
             <v-text-field bg-color="grey-lighten-4" variant="solo" prepend-inner-icon="mdi-phone" label="Phone"></v-text-field>
             <v-text-field bg-color="grey-lighten-4" variant="solo" prepend-inner-icon="mdi-email" label="Email"></v-text-field>
             <v-textarea class=" text-grey-darken-1" bg-color="grey-lighten-4" variant="solo" prepend-inner-icon="mdi-message" label="Message"></v-textarea>
-            <v-btn class="rounded-lg text-h6 font-weight-medium gr-bg text-white py-7 mb-6 " block>Send Message</v-btn>
+            <v-btn class="rounded-lg text-h6 font-weight-medium bp-bg text-white py-7 mb-6 " block>Send Message</v-btn>
         </form>
     </v-col>
 </template>
