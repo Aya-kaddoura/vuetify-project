@@ -7,6 +7,8 @@
     </v-app-bar-title>
     <v-btn><router-link to="/" class="text-subtitle-1 text-grey-darken-1" style="text-decoration: none;">Home</router-link></v-btn>
     <v-btn><router-link to="/product" class="text-subtitle-1 text-grey-darken-1" style="text-decoration: none;">Product</router-link></v-btn>
+    <v-btn><router-link to="/about" class="text-subtitle-1 text-grey-darken-1" style="text-decoration: none;">about</router-link></v-btn>
+
   </v-app-bar>
 </template>
 
